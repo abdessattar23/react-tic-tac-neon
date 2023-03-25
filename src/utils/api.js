@@ -1,4 +1,4 @@
-const API_URL = 'https://my-tic-tac-toe-api.com';
+const API_URL = 'https://tic-tac-neon.netlify.app';
 
 export const createGame = async () => {
   const response = await fetch(`${API_URL}/game`, {
