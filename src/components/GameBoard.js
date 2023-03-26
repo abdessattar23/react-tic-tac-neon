@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import NeonButton from './NeonButton';
 import { getGame, updateGame } from '../utils/api';
-import { calculateWinner } from '../utils/gameLogic';
+import { calculateWinner } from '../utils/GameLogic';
 
 const GameBoard = () => {
   const { gameId } = useParams();
